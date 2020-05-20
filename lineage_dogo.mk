@@ -14,7 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
+PRODUCT_SHIPPING_API_LEVEL := 16
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 # Inherit common LineageOS stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
